@@ -1,0 +1,93 @@
+.font {
+    font-family: baloo;
+}
+
+*{
+    margin:0px auto; /*supaya layer otomatis mengisi dan ke tengah*/
+    }
+
+.header{
+    margin-top: -450px;
+    width: 100%;
+    height: 80px;
+    background: rgb(255, 244, 246);
+    box-shadow: 1px 5px 12px 2px rgba(112, 50, 76, 0.651); 
+    position:fixed;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+    
+.stylemenu{
+    text-decoration: none; /*Untuk menghlilangkan garis bawah pada text link*/
+    margin-left: 10px;
+    margin-right: 30px;
+    color: rgba(160, 17, 41, 0.829);
+}
+#body{
+    background-image: url('img/bg7.jpg');
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+#desk{
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.login{
+    margin-top: 400px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.box1 {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 470px;
+    background: rgba(248, 149, 199, 0.911);
+    box-shadow: 1px 5px 12px 2px rgba(65, 2, 26, 0.651); 
+    border-radius: 20px;
+    width: 11cm;
+    height: 6.5cm;
+}
+
+.input{
+    text-align: center;
+    margin-left: -150px;
+    width: 260px;
+    height: 23px ;
+    border-radius: 10px;
+}
+
+.button{
+    margin-left: 3px;
+    width: 265px;
+    height: 25px ;
+    background-color: rgb(209, 234, 248);
+    border-radius: 10px;
+}
+
+#judultabel{
+    text-align: center;
+    margin-top: 400px;
+    letter-spacing: 1px;
+}
+.tabel{
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 900px;
+}
+
+.box2 {
+    position: relative;
+    margin-bottom: 300px;
+    margin-left: 470px;
+    background: rgb(255, 224, 237);
+    box-shadow: 1px 5px 12px 2px rgba(65, 2, 26, 0.651); 
+    border-radius: 20px;
+    width: 11cm;
+    height: 13cm;
+}
